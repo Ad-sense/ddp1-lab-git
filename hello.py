@@ -4,7 +4,11 @@ Alamat= input ("Masukan alamat rumah: ")
 print(f"Nama: {Nama}")
 print(f"NPM: {NPM}")
 
-if NPM[-1] == '0' and Nama != Nama.isalpha():
+if NPM[-1] == '0' and Nama != Nama.isalpha() and Alamat != Alamat.isalpha():
     print("Identitas Anda tidak valid.")
 else:
-    pass
+    print("Identitas Anda valid.")
+
+for num in NPM:
+    if type(num) != int:
+        raise ValueError
