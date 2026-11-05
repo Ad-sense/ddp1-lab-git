@@ -1,4 +1,4 @@
 Nama = input("Masukkan Nama Anda: ")
-Npm = input("Masukkan Npm Anda: ")
+NPM = input("Masukkan NPM Anda: ")
 print(f"Nama: {Nama}")
-print(f"Npm: {Npm}")
+print(f"NPM: {NPM}")
