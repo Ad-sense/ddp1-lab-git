@@ -12,3 +12,10 @@ else:
 for num in NPM:
     if type(num) != int:
         raise ValueError
+    else:
+        pass
+
+if Nama[0] == "R" or Nama[0] == "G":
+    print("Anda adalah orang VIP.")
+else:
+    pass
